@@ -1,7 +1,8 @@
 import React from 'react';
 import { ThemeProvider } from './context/themeContext';
+import CustomHook from './hooks/custom-hook';
 // import UsecontextHook from './hooks/usecontext-hook';
-import UserefHook from './hooks/useref-hook';
+//import UserefHook from './hooks/useref-hook';
 //import UseeffectHook from './hooks/useeffect-hook';
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
         {/* <UsecontextHook /> */}
 
         {/* useRef */}
-        <UserefHook />
+        {/* <UserefHook /> */}
+
+        {/* custom hook */}
+        <CustomHook />
       </ThemeProvider>
     </div>
   );
